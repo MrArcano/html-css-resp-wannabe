@@ -134,3 +134,20 @@ img {
     }
  }
  
+ @media screen and (max-width: 480px) {
+    .container{
+        width: 400px;
+    }
+
+    .row{
+        flex-wrap: wrap;  
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right{
+        width: 100%;
+    }
+
+ }
